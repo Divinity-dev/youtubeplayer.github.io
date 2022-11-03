@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    transition: all 0.5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 30px;
+    align-items: center;
+}
+.na{
+    display: flex;
+    height: 10vh;
+}
+.search{
+    width: 60%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.search div{
+    width: 98%;
+}
+.search div input{
+    width: 90%;
+    margin-right: 0%;
+}
+.search div i{
+    border: 1px solid;
+    margin-left: 0%;
+    padding: 1px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.na img{
+    width: 120px;
+    height: auto;
+}
+.logo i{
+    margin-top: 20px;
+}
+.person{
+    padding-top: 20px;
+}
+.person a{
+text-decoration: none;
+margin-left: 20px;
+border: 1px solid;
+border-radius: 20%;
+color: green;
+padding-bottom: 0px;
+}
+.header{
+    padding: 50px;
+    display: flex;
+}
+.video{
+    flex-basis: 60%;
+    margin-right: 30px;
+}
+.video iframe{
+    width: 100%;
+}
+.video h3{
+    font-size: 15px;
+    color: rgba(0, 42, 255, 0.998);
+}
+.sidevids{
+    height: auto;
+    flex: 1;
+}
+.sidevids div{
+    display: flex;
+    flex-basis: 45%;
+    margin-top: 5px;
+}
+.sidevids div iframe{
+    width: 100%;
+    height: auto;
+}
+.sidevids div h1{
+    font-size: 15px;
+}
+
